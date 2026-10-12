@@ -1,3 +1,4 @@
+#include "libdara.h"
 #include <stddef.h>
 
 size_t ld_strlen(const char *s)
@@ -6,5 +7,6 @@ size_t ld_strlen(const char *s)
 
     while(s[i] != '\0')
         i++;
+    
     return (i);
 }
